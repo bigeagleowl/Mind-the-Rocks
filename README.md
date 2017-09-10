@@ -1,2 +1,2 @@
-# Mind-the-Rocks-
+# Mind-the-Rocks!
 microbit game
