@@ -11,10 +11,10 @@ To play with your friends:
 1. When all have joined **let go of button A**. It will tell you which player number you are, and then it will start the game :-)
 1. When you die you will see the skull image, and your microbit will wait till all players have finished.
 1. The microbit will display the number of the player who won. Here's hoping that is you! 
-1. It automatically restarts the game, for more fun!
+1. It automatically restarts the gameso that you can have fun!
 
-## Where did the Idea Come From?
-I attended an [Oxford Codebar](https://codebar.io/oxford) session on Python programming for microbits where I was demoing the [A Staky Start Talk Timer](https://github.com/bigeagleowl/A-Shaky-Start-Talk-Timer). There, one of the Mentors was coding up a block drop game for the microbit.  If that was you I would love to credit you here.  This got me thinking that I could write a multi-player version.
+## Where did the Inspiration Come From?
+I attended an [Oxford Codebar](https://codebar.io/oxford) session on Python programming for microbits where I was demoing the [A Staky Start Talk Timer](https://github.com/bigeagleowl/A-Shaky-Start-Talk-Timer). There, one of the Mentors was coding up a block drop type game for the microbit.  If that was you I would love to credit you here.  This got me thinking that I could write a multi-player version.
 
 ## Trivia 
 I coded up the very first version of the game whilst on holiday in the [Northumberland National Park](https://www.northumberlandnationalpark.org.uk/).
