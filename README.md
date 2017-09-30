@@ -2,10 +2,9 @@
 This is a multiplayer game for the BBC [micro:bit](http://microbit.org/) where you have to avoid the falling rocks. The player who avoids the rocks for the longest wins - simple eh!
 
 ## How do I play?
-When the game starts, you will see the spinning clock finger on the display. When this stops you are off and the rocks will start dropping from the top of the screen.  You are the pixel in the middle of the bottom row. You have to avoid the falling rocks by using the 2 microbit buttons. Button A (on left) moves you to the left and button B (on right) moves you to the right. If a rock hits you, it is game over. The game them restarts - what fun! 
+When the game starts, you will see the spinning clock finger on the display. When this stops you are off and running, and the rocks will start dropping from the top of the screen.  You are the pixel in the middle of the bottom row. You have to avoid the falling rocks by using the 2 microbit buttons. Button A (on left) moves you to the left and button B (on right) moves you to the right. If a rock hits you, it is game over. The game them restarts - what fun! 
 
 ## I Want to Play with My Friends
-To play with your friends:
 1. Check everyone has *Mind the Rocks* on their microbit. 
 
 ### We now need to register all the players who want to join.
