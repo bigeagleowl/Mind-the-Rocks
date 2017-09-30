@@ -6,7 +6,9 @@ When the game starts, you will see the spinning clock finger on the display. Whe
 
 ## I Want to Play with My Friends
 To play with your friends:
-1. Check everyone has *Mind the Rocks* on their microbit.
+1. Check everyone has *Mind the Rocks* on their microbit. 
+
+### We now need to register all the players who want to join.
 1. Get everyone to **reset** their microbits using the reset button (which is the button on the opposite side to the LEDs).  
 1. When you see the spinning clock finger, **press and hold the button A** (on left).  When it sees others doing the same with their microbits, it lights a LED for each player who joins. Wait till your microbit displays the correct number of players.
 1. When all have joined **let go of button A**. It will tell you which player number you are, and then it will start the game :-)
