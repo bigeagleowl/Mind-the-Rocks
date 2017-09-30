@@ -9,12 +9,13 @@ To play with your friends:
 1. Check everyone has *Mind the Rocks* on their microbit. 
 
 ### We now need to register all the players who want to join.
-1. Get everyone to **reset** their microbits using the reset button (which is the button on the opposite side to the LEDs).  
+2. Get everyone to **reset** their microbits using the reset button (which is the button on the opposite side to the LEDs).  
 1. When you see the spinning clock finger, **press and hold the button A** (on left).  When it sees others doing the same with their microbits, it lights a LED for each player who joins. Wait till your microbit displays the correct number of players.
 1. When all have joined **let go of button A**. It will tell you which player number you are, and then it will start the game :-)
-1. When you die you will see the skull image, and your microbit will wait till all players have finished.
+### Now you Play!
+6. When a rock hits you you will see the skull image, and your microbit will wait till all players have finished.
 1. The microbit will display the number of the player who won. Here's hoping that is you! 
-1. It automatically restarts the game so that you can have fun!
+1. It automatically restarts the game so that you can all have more fun!
 
 ## Where did the Inspiration Come From?
 I attended an [Oxford Codebar](https://codebar.io/oxford) session on Python programming for microbits where I was demoing the [A Staky Start Talk Timer](https://github.com/bigeagleowl/A-Shaky-Start-Talk-Timer). There, one of the cool Mentors was coding up a block drop type game for the microbit.  If that was you I would love to credit you here.  This got me thinking that I could write a multi-player version.
