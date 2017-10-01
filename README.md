@@ -19,5 +19,8 @@ When the game starts, you will see the spinning clock finger on the display. Whe
 ## Where Did the Inspiration Come From?
 I attended an [Oxford Codebar](https://codebar.io/oxford) (their [twitter](https://twitter.com/codebarOxford)) session on Python programming for microbits where I was demoing the [A Shaky Start Talk Timer](https://github.com/bigeagleowl/A-Shaky-Start-Talk-Timer). There, one of the cool Python Mentors was coding up a block drop type game for the microbit.  If that was you I would love to credit you here.  This got me thinking that I could write a multi-player version so here it is :-)
 
+## Teachers & Coding Mentors
+You are very welcome to use this to help make coding fun - in fact that is the whole point. If you have an idea for an improvement, just add an [issue](https://github.com/bigeagleowl/Mind-the-Rocks/issues) describing your suggestion :-)
+
 ## Trivia 
 I coded up the very first version of the game whilst on holiday in the [Northumberland National Park](https://www.northumberlandnationalpark.org.uk/). When looking up from the screen I could see the wonderful hills of the upper Coquetdale valley.
