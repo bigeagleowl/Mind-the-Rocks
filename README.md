@@ -22,5 +22,11 @@ I attended an [Oxford Codebar](https://codebar.io/oxford) (their [twitter](https
 ## Teachers & Coding Mentors
 You are very welcome to use this to help make coding fun - in fact that is the whole point. If you have an idea for an improvement, just add an [issue](https://github.com/bigeagleowl/Mind-the-Rocks/issues) describing your suggestion :-)
 
+## Tech Stack 
+This is written in [MicroPython](http://micropython.org/). 
+
+## How to Install
+Here is [how to compile and copy](https://www.microbit.co.uk/device/usb) a MicroPython script (in this case [mindtherocksformicrobit.py](https://github.com/bigeagleowl/Mind-the-Rocks/blob/master/mindtherocksformicrobit.py)) or hex file (grab from the latest [release](https://github.com/bigeagleowl/Mind-the-Rocks/releases/)) file to your microbit :-)
+
 ## Trivia 
 I coded up the very first version of the game whilst on holiday in the [Northumberland National Park](https://www.northumberlandnationalpark.org.uk/). When looking up from the screen I could see the wonderful hills of the upper Coquetdale valley.
