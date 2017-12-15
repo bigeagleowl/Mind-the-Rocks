@@ -156,6 +156,8 @@ def move_rocks_down():
 def main():
     """Main function for the Mind the Rocks"""
     multiple_player = False
+    delay = 1000
+
     radio.on()
 
     start_up_screen()
@@ -187,12 +189,18 @@ def main():
 
             start_up_screen()
             x_coord_ship = 2
+            delay = 1000
+
         # display ship
         display.set_pixel(x_coord_ship, 4, 9)
 
         more_rocks()
 
-        sleep(1000)
+        sleep(delay)
+        if delay > 100:
+            delay = delay - 2
+        message = "Delay>" + str(delay) + "ms"
+        print(message)
 
         x_coord_ship = x_coord_ship - button_a.get_presses() + \
             button_b.get_presses()
