@@ -158,10 +158,9 @@ def move_rocks_down():
 def main():
     """Main function for the Mind the Rocks"""
     multiple_player = False
-    multiple_player_games_played = 0 
+    multiple_player_games_played = 0
     delay = 1000
-    games_played =0
-    
+
     radio.on()
 
     start_up_screen()
@@ -188,11 +187,11 @@ def main():
 
             if multiple_player:
                 display_winner()
+                multiple_player_games_played += 1
+                random.seed(players[0] + multiple_player_games_played)
+
             if button_a.is_pressed():
                 set_up_multiplayer()
-
-            multiple_player_games_played += 1
-            random.seed(players[0] + multiple_player_games_played)
 
             start_up_screen()
             x_coord_ship = 2
