@@ -1,4 +1,3 @@
-# Add your Python code here. E.g.
 from microbit import *
 import random
 import radio
@@ -131,6 +130,8 @@ def set_up_multiplayer():
     print("Player number " + str(player_num))
 
     display.scroll(str(player_num), monospace=True, delay=1000)
+    button_a.get_presses()
+    button_b.get_presses()
 
 
 # rock generator same for playe
