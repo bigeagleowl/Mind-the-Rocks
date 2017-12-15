@@ -10,7 +10,7 @@ players = []
 
 def start_up_screen():
     """Display the start up screen"""
-    display.show(Image.ALL_CLOCKS, delay=100, loop=False, clear=True)
+    display.show(Image.ALL_CLOCKS, delay=150, loop=False, clear=True)
     return
 
 
@@ -29,7 +29,7 @@ def display_winner():
 
     receivedmess = radio.receive()
     while receivedmess is not None:
-        print("Recieved " + receivedmess)
+        print("Received " + receivedmess)
         try:
             (mtrdev, gameover_command, other_id) = receivedmess.split()
         except ValueError:
@@ -50,7 +50,7 @@ def display_winner():
     while to_finish > 0:
         receivedmess = radio.receive()
         while receivedmess is not None:
-            print("Recieved " + receivedmess)
+            print("Received " + receivedmess)
             try:
                 (mtrdev, gameover_command, other_id) = receivedmess.split()
             except ValueError:
@@ -211,9 +211,9 @@ def main():
         x_coord_ship = x_coord_ship - button_a.get_presses() + \
             button_b.get_presses()
         if x_coord_ship > 4:
-            x_coord_ship = 4
-        elif x_coord_ship < 0:
             x_coord_ship = 0
+        elif x_coord_ship < 0:
+            x_coord_ship = 4
 
 
 if __name__ == "__main__":
