@@ -128,7 +128,7 @@ def set_up_multiplayer():
     player_num = players.index(my_id) + 1
 
     print("Player number " + str(player_num))
-    
+
     random.seed(players[0])
 
     display.scroll(str(player_num), monospace=True, delay=1000)
